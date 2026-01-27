@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texas PEVC - About</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center space-x-2">
+                        <img src="logo.jpg" alt="Texas PEVC Logo" class="h-8 w-auto">
+                        <span class="text-xl font-bold text-gray-900">Texas PEVC</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-orange-600 px-3 py-2 rounded-md text-sm font-medium transition">Home</a>
+                    <a href="aboutPageClean.html" class="text-orange-600 border-b-2 border-orange-600 px-3 py-2 text-sm font-medium">About</a>
+                    <a href="boardPageClean.html" class="text-gray-700 hover:text-orange-600 px-3 py-2 rounded-md text-sm font-medium transition">Board</a>
+                    <a href="recruitmentPageClean.html" class="text-gray-700 hover:text-orange-600 px-3 py-2 rounded-md text-sm font-medium transition">Recruitment</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="text-gray-700 hover:text-orange-600 focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="pevcHomeClean.html" class="block px-3 py-2 text-gray-700 hover:text-orange-600">Home</a>
+                <a href="aboutPageClean.html" class="block px-3 py-2 text-orange-600 font-medium">About</a>
+                <a href="boardPageClean.html" class="block px-3 py-2 text-gray-700 hover:text-orange-600">Board</a>
+                <a href="recruitmentPageClean.html" class="block px-3 py-2 text-gray-700 hover:text-orange-600">Recruitment</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">About Texas PEVC</h1>
+                <p class="text-xl md:text-2xl text-white">Empowering the next generation of investment leaders</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-6">Our Mission</h2>
+                    <p class="text-gray-600 mb-4">
+                        Texas PEVC is committed to developing exceptional talent for the private equity and venture capital industries. We bridge the gap between academic excellence and professional success through comprehensive education, mentorship, and networking opportunities.
+                    </p>
+                    <p class="text-gray-600 mb-6">
+                        Our organization serves as a launchpad for students passionate about investment, providing them with the knowledge, skills, and connections needed to thrive in competitive financial markets.
+                    </p>
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-lg">
+                    <img src="ut-tower.png" alt="UT Austin Tower" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="bg-gray-50 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Our Values</h2>
+                <p class="text-lg text-gray-600">The principles that guide everything we do</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-orange-50 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <i class="fas fa-lightbulb text-orange-600 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Community of Your Peers</h3>
+                    <p class="text-gray-600">Bringing together diverse mindsets in a like-minded community</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-orange-50 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <i class="fas fa-users text-orange-600 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">We Guide, You Lead</h3>
+                    <p class="text-gray-600">Helping you develop, not to mold you like other clubs</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-orange-50 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <i class="fas fa-chart-line text-orange-600 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Now is the Time</h3>
+                    <p class="text-gray-600">Making PE & VC recruitment more accessible to undergrads</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Footer -->
+    <footer class="section-navy py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Texas PEVC</h3>
+                    <p class="text-gray-400">Connecting private equity and venture capital professionals across Texas.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="aboutPageClean.html" class="hover:text-white transition">About Us</a></li>
+                        <li><a href="boardPageClean.html" class="hover:text-white transition">Board</a></li>
+                        </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><i class="fas fa-envelope mr-2"></i><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7c15121a133c0819041d0f0c190a1f52130e1b">[email&#160;protected]</a></li>
+                        <li><i class="fas fa-phone mr-2"></i>(512) 555-0123</li>
+                        <li><i class="fas fa-map-marker-alt mr-2"></i>Austin, Texas</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-linkedin text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-twitter text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-facebook text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram text-xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2026 Texas PEVC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
