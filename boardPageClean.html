@@ -35,9 +35,9 @@
         <!-- Mobile menu -->
         <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
             <div class="px-2 pt-2 pb-3 space-y-1">
-                <a href="pevcHomeClean.html" class="block px-3 py-2 text-gray-700 hover:text-orange-600">Home</a>
-                <a href="aboutPageClean.html" class="block px-3 py-2 text-orange-600 font-medium">About</a>
-                <a href="boardPageClean.html" class="block px-3 py-2 text-gray-700 hover:text-orange-600">Board</a>
+                <a href="index.html" class="block px-3 py-2 text-gray-700 hover:text-orange-600">Home</a>
+                <a href="aboutPageClean.html" class="block px-3 py-2 text-gray-700 hover:text-orange-600">About</a>
+                <a href="boardPageClean.html" class="block px-3 py-2 text-orange-600 font-medium">Board</a>
                 <a href="recruitmentPageClean.html" class="block px-3 py-2 text-gray-700 hover:text-orange-600">Recruitment</a>
             </div>
         </div>
@@ -181,7 +181,7 @@
 </a>
 
 <!-- Aryan -->
-<a href="https://www.linkedin.com/in/aryan-ash-shah/" target="_blank" class="bg-white rounded-lg shadow-lg hover:shadow-xl transition block">
+<a href="https://www.linkedin.com/in/aryannshah/" target="_blank" class="bg-white rounded-lg shadow-lg hover:shadow-xl transition block">
 <div class="p-6">
 <img src="images/aryan-shah.jpg" alt="Aryan Shah" loading="lazy" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-2 border-gray-200"/>
 <h3 class="text-xl font-semibold text-center mb-2">Aryan Shah</h3>
@@ -210,6 +210,26 @@
 <p>&copy; 2026 Texas PEVC. All rights reserved.</p>
 </div>
 </footer>
+
+<script>
+    // Mobile menu toggle with icon animation
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuIcon = mobileMenuButton.querySelector('i');
+
+    mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+        
+        // Toggle between hamburger and X icon
+        if (mobileMenu.classList.contains('hidden')) {
+            menuIcon.classList.remove('fa-times');
+            menuIcon.classList.add('fa-bars');
+        } else {
+            menuIcon.classList.remove('fa-bars');
+            menuIcon.classList.add('fa-times');
+        }
+    });
+</script>
 
 </body>
 </html>
